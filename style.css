@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Kalnia+Glaze:wght@100..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Playwrite+AR:wght@100..400&family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Kalnia+Glaze:wght@100..700&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Playwrite+AR:wght@100..400&family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+@font-face {
+    font-family:krinkes;
+    src: url(./woodworks/WoodWorks-Plain.otf);
+}
+@font-face {
+    font-family:uechi ;
+    src: url(./uechi_gothic/UECHIGOT.TTF);
+}
+@font-face {
+    font-family: face;
+    src: url(./evelins/EvelinsRegular.ttf);
+}
+body{
+    background-image: url(./back.jpg),url(./images/back-image.webp);
+    background-position: left top,right top;
+    background-size: 790px 740px,750px 740px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.poster{
+    height:455px;
+    width:152px;
+    object-fit: cover;
+    display: inline-block;
+}
+.para{
+   
+    margin: 5px;
+    display:inline-block;
+    width:700px;
+    text-align: justify;   
+
+}
+#p1{
+    font-family: "Playwrite BE VLG", cursive;
+    overflow: hidden;
+    height: 130px;
+}
+#p2{
+    
+    font-family: "uechi";
+    overflow:hidden;
+    height:130px;
+}
+#p3{
+    font-family: krinkes;
+    overflow:hidden;
+    height:130px;
+}
+#div2{
+    display: inline-block;;
+    height :270px;
+    width:779px;
+    background-image: url(./download.jpg);
+    background-size: 795px 270px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-blend-mode: color-dodge;
+   
+}
+.para1{
+   
+    margin: 5px;
+    display:inline-block;
+    width:700px;
+    text-align: justify;   
+
+}
+#p4{
+
+ font-family: face;
+    overflow: hidden;
+    height: 100px;
+}
+#p5{
+    overflow:hidden;
+    height:100px;
+}
